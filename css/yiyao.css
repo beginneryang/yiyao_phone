@@ -13,7 +13,7 @@ body{background-color:#f0f0f0;}
 .img_mr{margin-right: 1px;}
 .img_mb{margin-bottom: 1px;}
 .img_w{width: 7.75rem;}
-.img_w2{width: 7.8rem} 
+.img_w2{width: 7.8rem;} 
 .top{
     height: 2.25rem;
     line-height: 2.25rem;
@@ -46,7 +46,7 @@ body{background-color:#f0f0f0;}
         text-align: left;
         border-radius: 0.25rem;
         padding-left: 0.5rem;
-        box-sizing: border-box
+        box-sizing: border-box;
     }
     input{
         font-size:0.7rem;
@@ -66,6 +66,7 @@ body{background-color:#f0f0f0;}
     .swiper-container{
         height:7.125rem;
         width: 100%;
+        overflow: hidden;
     }
     .swiper-container img{
         width: 16rem;
@@ -80,7 +81,7 @@ body{background-color:#f0f0f0;}
         -webkit-box-pack: center;
         --webkit-box-align: center;
     }
-    .con1_ul1{padding:0.65rem 0  1.345rem 0}
+    .con1_ul1{padding:0.65rem 0  1.345rem 0;}
     .con1_li{
         width: 2.5rem;
         height: 2.5rem;
