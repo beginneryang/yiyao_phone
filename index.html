@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>医药</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="swiper_css_js/swiper.min.css">
+    <link rel="stylesheet" href="shiliang_css/iconfont.css">
+    <link rel="stylesheet" href="css/iconfont1.css">
+    <link rel="stylesheet" href="css/yiyao.css">
+    <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+    <script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>
+</head>
+<body>
+    <div class="top gw">
+         <a class="cbl fl iconfont" href="#">&#xe63b;<span class="cbl_fl ">分类</span>
+         </a> 
+           <form action="#" class="dis_nb">
+               <input type="search" placeholder="输入搜索关键词" autofocus >
+               <a href="#" class="dis_nb fdj iconfont">&#xe63d;</a>
+           </form>
+           <a class="fr gwc iconfont" href="#">&#xf0179;</a>
+    </div>
+    <div class="gw swiper-container gw mb">
+        <ul class="swiper-wrapper gw">
+            <li class="swiper-slide"><img src="images/yiyao_ban.png" alt=""></li>
+            <li class="swiper-slide"><img src="images/yiyao_ban.png" alt=""></li>
+            <li class="swiper-slide"><img src="images/yiyao_ban.png" alt=""></li>
+            <li class="swiper-slide"><img src="images/yiyao_ban.png" alt=""></li>
+        </ul>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination">
+        </div>
+    </div>
+    <div class="con1 gw2 bg_fff mb">
+        <ul class="con1_ul1">
+            <li class="iconfont con1_li bg_color1">&#xe614;<em> 中西药</em></li>
+            <li class="iconfont con1_li bg_color2">&#xf01d4;<em>儿科用药</em></li>
+            <li class="iconfont con1_li bg_color3">&#xe685;<em>皮肤用药</em></li>
+            <li class="iconfont con1_li bg_color4">&#xe61e;<em>医疗器械</em></li>
+        </ul>
+        <ul>
+            <li class="iconfont con1_li bg_color5">&#xe603;<em>养生保健</em></li>
+            <li class="iconfont con1_li bg_color6">&#xe6e0;<em>隐形眼镜</em></li>
+            <li class="iconfont con1_li bg_color7">&#x345d;<em>美容护肤</em></li>
+            <li class="iconfont con1_li bg_color8">&#xe63a;<em>成人用品</em></li>
+        </ul>
+    </div>
+    <div class="con2 con_h gw2 mb">
+        <div class="con_top img_mb bg_fff"><p>全网最低价</p></div>
+        <div class="con_bt">
+            <img class="yiyao_lh img_w img_mr fl bg_size" src="images/yiyao_lh.png" alt="">
+            <img class="yiyao_yakj img_mb fl img_w2 bg_size" src="images/yiyao_yakj.png" alt="">
+            <img class="yiyao_jal img_w2 fl bg_size" src="images/yiyao_jal.png" alt="">
+        </div>
+    </div>
+    <div class="xban gw2 mb">
+        <img src="images/yiyao_xban.png" alt="">
+    </div>
+    <div class="con3 con_h gw2 mb">
+        <div class="con_top img_mb bg_fff"><p>答谢恩师</p></div>
+        <div class="con_bt gw2">
+              <img class="yiyao_lh fl img_w2 img_mb bg_size" src="images/yiyao_hc.png" alt="">
+                
+              <img class="yiyao_hmyj fr img_w   bg_siz" src="images/yiyao_hmyj.png" alt=""> 
+
+             <img class="yiyao_wt fl img_w img_ml bg_size" src="images/yiyao_wt.png" alt="">         
+        </div>
+    </div>
+    <div class="xban gw2 mb">
+        <img src="images/yiyao_xban2.png" alt="">
+    </div> 
+    <div class="con4 con_h  mb">
+        <div class="con_top gw2 img_mb bg_fff">
+            <p>美美哒</p>
+        </div>
+        <div class="con_bt gw2">
+              <img class="yiyao_zrt fl img_w img_mr bg_size" src="images/yiyao_zrt.png" alt="">
+                
+              <img class="yiyao_xjp fl img_w img_mb bg_siz" src="images/yiyao_xjp.png" alt=""> 
+
+             <img class="yiyao_amd fl img_w  bg_size" src="images/yiyao_amd.png" alt="">         
+        </div>        
+        <div id="classify" class=" bg_fff iconfont">&#xe76f;</div>       
+        <div id='mask'></div>           
+        <div id="mk_yuan"class="bg_fff">
+                <div class="mk_sy"></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+        </div>
+    </div>
+    <div class="con4_bg gw bg_fff"></div>
+    
+    <div class="footer gw ">
+        <div class="footer_top clearfix">
+            <p class="fl foo_p">
+                <a href="#">登录</a>
+                <span class="dis_nb foo_span"></span>
+                <a href="#">注册</a>
+            </p>
+            <p class="fr foo_p">
+                <a href="#">回首页
+                    <em class="iconfont foo_em">&#xe619;</em>
+                </a>
+            </p>
+        </div>
+        <ul class="footer_bt gw">
+            <li>
+                触屏版
+                <em class="dis_nb"></em>
+                电脑版
+                <em class="dis_nb"></em>
+                APP版
+            </li>
+            <li>
+                <em class="iconfont">&#xe722;</em>
+                正规药店
+                <em class="iconfont">&#xf007c;</em>
+                提供发票
+                <em class="iconfont">&#xf0079;</em>
+                7天退换货
+            </li>
+            <li>
+                咨询电话：010-6666663
+            </li>
+        </ul>
+    </div>
+
+<script src="swiper_css_js/swiper.min.js"></script>
+<script>
+    function $(id){
+        return document.getElementById(id);
+    }
+    var mk=$('mask');
+    var mk_y=$('mk_yuan');
+    $('classify').onclick=function(){
+        if(mk.style.display=='none'){
+            mk.style.display='block';
+            mk_y.style.display='block';
+        }else{
+            mk.style.display='none';
+            mk_y.style.display='none';
+        }
+    }
+</script>
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+    autoplay: {
+    delay: 2000,
+    stopOnLastSlide: false,
+    disableOnInteraction: false,
+    },
+    
+    // 如果需要分页器
+    pagination :{
+    el: '.swiper-pagination',
+    clickable :true,
+    bulletElement : 'li',
+    }
+  })        
+  </script>
+</body>
+</html>
